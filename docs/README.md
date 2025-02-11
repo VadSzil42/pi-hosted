@@ -26,7 +26,7 @@ On Oct 30, 2021 Pi OS bullseye was released and this is no longer needed.  Older
 sudo dpkg-query -W libseccomp2
 ```
 
-If you are running a version less that 2.5 you will need to run the *upgrade script*.
+If you are running a version less than 2.5 you will need to run the *upgrade script*.
 ```
 wget -qO- https://raw.githubusercontent.com/pi-hosted/pi-hosted/master//tools/update_libseccomp2.sh | bash
 ```
